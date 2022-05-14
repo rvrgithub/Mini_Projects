@@ -1,0 +1,25 @@
+body
+{
+    font-family: Inter, sans-serif;
+    background-color: #282D35;
+    
+}
+.main-title{
+    font-size: 50px;
+color: white;
+padding: 20px 50px;
+ 
+}
+.main-facts{
+    font-size: 20px;
+    color: #DEEBF8;
+    padding:10px 100px;
+}
+.main-facts > li {
+    line-height: 19px;
+    padding-block: 10px; 
+}
+.main-facts > li::marker {
+    font-size: 2rem;
+    color: #61DAFB;
+}
