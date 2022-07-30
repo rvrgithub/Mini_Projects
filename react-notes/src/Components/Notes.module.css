@@ -1,0 +1,35 @@
+.MainDiv{
+    border: 1px solid white;
+    width: 500px;
+    /* font-size: 15px; */
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    grid-gap: 20px;
+color: #f96775;
+}
+.Flex{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 10px;
+background-color:#b3d4ff;
+height:70px;
+margin-top: 10px;
+font-size: 12px;
+
+}
+.Tag{
+    border-radius: 50%;
+background-color: white;
+color: black;
+height: 20px;
+margin: 20px 10px;
+padding: 2px ;
+cursor: pointer;
+}
+.P{
+    border-radius: 10px;
+    background-color: #fedfe5;
+    color: black;
+    padding: 10px;
+}
