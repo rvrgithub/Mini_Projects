@@ -1,7 +1,9 @@
 # This is mini project in which I used props  ...
 
+![image](https://user-images.githubusercontent.com/96066976/181897034-954b7909-9ff3-426d-aa3a-97359c8ee964.png)
 
-![image](https://user-images.githubusercontent.com/96066976/181879306-746f4623-ebb0-4587-9db1-e0d61b9ae0ab.png)
+![image](https://user-images.githubusercontent.com/96066976/181897146-9b9759fe-889b-43a4-b83e-c0c6f96b3eee.png)
+
 
 
 # Getting Started with Create React App
