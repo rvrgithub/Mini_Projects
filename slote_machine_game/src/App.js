@@ -1,22 +1,16 @@
+import { useState } from 'react';
 import './App.css';
-import { SloteM } from './Components/SloteM';
+import { SloteData } from './Components/SloteData';
+import { Time } from './Components/Time';
 
 function App() {
+  const [value,setValue] =useState(false);
+
   return (
     <div className="App">
       <header className="App-header">
-    <h2 style={{color:"#fedfe7"}}>This is <span style={{color:"#dc3545"}}>slote Machine</span> Game</h2>
-  <div className='border'>
-      <SloteM x= "😄" y = "😸" z= "🍎"/>
-      <hr/>
-      <SloteM x= "😄" y ="😄" z= "😄"/>
-      <hr/>
-      <SloteM x= "😄" y = "😸" z= "🍌"/>
-      <hr/>
-      <SloteM x= "🍌" y = "😸" z= "🍎"/>
-      <hr/>
-
-  </div>
+      {value? <SloteData/> :<Time/> }
+      <button onClick={()=>setValue(prev=>!prev)}> {value ? "Let's check Time" : "Play Game"}</button>
       </header>
     </div>
   );
