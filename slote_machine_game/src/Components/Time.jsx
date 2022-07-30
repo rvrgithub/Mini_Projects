@@ -10,11 +10,12 @@ const UpdateTime =()=>{
   // ussing agin newTime for update the on when clicking on button....
   setTime(newTime)
 }
+setInterval(UpdateTime,1000)
   return (
     <div>
 
     <h1>{time}</h1>
-    <button style={{marginBottom:"30px"}} onClick={UpdateTime}>Get Time</button>
+    {/* <button style={{marginBottom:"30px"}} onClick={UpdateTime}>Get Time</button> */}
     </div>
   )
 }
