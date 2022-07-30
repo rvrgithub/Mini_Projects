@@ -1,3 +1,9 @@
+# This is mini project in which I used props  ...
+
+
+![image](https://user-images.githubusercontent.com/96066976/181879306-746f4623-ebb0-4587-9db1-e0d61b9ae0ab.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
