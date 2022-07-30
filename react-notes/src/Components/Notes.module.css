@@ -7,6 +7,8 @@
     border-radius: 10px;
     grid-gap: 20px;
 color: #f96775;
+background-color: white;
+
 }
 .Flex{
     display: flex;
