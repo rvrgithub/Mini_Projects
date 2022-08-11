@@ -1,4 +1,4 @@
-# Diploay Link:- https://magenta-crostata-314e20.netlify.app/
+# Deploye Link:- https://magenta-crostata-314e20.netlify.app/
 ![image](https://user-images.githubusercontent.com/96066976/184192161-9ed82ac5-f3da-4337-a7b4-7c1d64269538.png)
 
 
