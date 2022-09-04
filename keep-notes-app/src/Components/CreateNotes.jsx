@@ -34,13 +34,15 @@ setNotes({
                 autoComplete='off'
                 w="100%"
                 border="none"
+                marginBottom="0"
+          
             />
           
-            <Textarea w="100%" border="none" placeholder='write a Notes'
+            <Textarea w="100%" border="none" placeholder='write a Notes' 
             name="content"
             value={notes.content}
             onChange={handleChange} />
-            <Button marginLeft={"80%"} borderRadius="50%" onClick={addEvent}> <AddIcon/></Button>
+            <Button marginLeft={"95%"} borderRadius="50%" onClick={addEvent}> <AddIcon/></Button>
         </form>
     </Box>
   )
