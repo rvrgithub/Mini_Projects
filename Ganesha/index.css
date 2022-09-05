@@ -1,333 +1,416 @@
-body{
-    background-image: url("https://thumbs.dreamstime.com/b/clouds-blue-sky-light-31912398.jpg");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 95%;
+body {
+  background-image: url("https://media.istockphoto.com/photos/sunset-picture-id157727724?b=1&k=20&m=157727724&s=170667a&w=0&h=1a2OGuXBxJWUBqHrY3bvER1_WeO9W8xqMgiUtRI_zJg=");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-html{
-    height: 100%;
+html {
+  height: 100%;
+}
+.circle {
+  border-radius: 50%;
+  position: absolute;
+  background-color: orange;
+  transform-origin: top;
+  /* z-index: -2px; */
+}
+.circle1 {
+  height: 80px;
+  width: 80px;
+  /* border-bottom: 1px solid red; */
+  /* border-left: 1px solid red; */
+  border-bottom: 5px solid red;
 
+  border-bottom-right-radius: 10px solid red;
 }
-.circle{
-    border-radius: 50%;
- position: absolute;
- background-color: orange;
- transform-origin: top;
- /* z-index: -2px; */
-}
-.circle1{
-    height: 80px;
- width: 80px;
-/* border-bottom: 1px solid red; */
-/* border-left: 1px solid red; */
-border-bottom: 5px solid red;
-
-border-bottom-right-radius: 10px solid red;
-}
-.circle2{
-    height: 60px;
- width: 60px;
- margin-top: 100px;
- border-right: 3px solid red;
-border-bottom: 5px solid red;
-
-}
-
-.circle3{
-    height: 50px;
- width: 50px;
- margin-top: 170px;
- margin-left: 20px;
-border-right: 2px solid red;
-border-bottom: 5px solid red;
-
-}
-.circle4{
-    height: 40px;
- width: 40px;
- margin-top: 230px;
- margin-left: 40px;
-border-right: 2px solid red;
-border-bottom: 5px solid red;
-
-}
-.circle5{
-    height: 35px;
- width: 35px;
- margin-top: 280px;
- margin-left: 40px;
-border-right: 2px solid red;
-border-bottom: 5px solid red;
-
-
-}
-.circle6{
-    height: 30px;
- width: 30px;
- margin-top: 320px;
- margin-left: 20px;
-border-right: 2px solid red;
-border-bottom: 5px solid red;
-
-}
-.circle7{
-    height: 25px;
- width: 25px;
- margin-top: 350px;
- margin-left: 0px;
-border-bottom: 2px solid red;
-border-right: 2px solid red;
-border-left: 2px solid red;
-
-}
-.mouth{
-    height: 150px;
-    width: 150px;
-    background-color: orange;
-    border-radius: 50%;
-    margin-top: -120px;
-    position: absolute;
-    z-index: -1;
-border-right: 5px solid red;
-border-left: 5px solid red;
-border-top: transparent;
-}
-.teeth1{
-    width: 0px;
-    height: 25px;
-    background-color: white;
-    margin-left: -85px;
-    margin-top: 20px;
-    border-color:white ;
-    border-style: solid;
-    border-radius: 60px;
-transform-origin: right;
-position: absolute;
-}
-.teeth{
-    width: 0px;
-    height: 25px;
-    background-color: white;
-    margin-left: 85px;
-    margin-top: 20px;
-    border-color:white ;
-    border-style: solid;
-    border-radius: 60px;
-transform-origin: right;
-position: absolute;
-}
-.ear1{
-    width: 0px;
-    height: 100px;
-    border-width: 50px 50px 50px 100px;
-    border-color: transparent transparent transparent orange;
-    position: absolute;
-    margin-top: -120px;
-    margin-left: -150px;
-    border-style: solid;
-transform-origin: right;
-border-radius: 20px;
-/* border: 5px solid green; */
-
-}
-.ear2{
-    width: 0px;
-    height: 100px;
-    border-width: 50px  100px 50px 50px ;
-    border-color: transparent  orange transparent transparent ;
-    position: absolute;
-    margin-top: -120px;
-    margin-left: 150px;
-    border-style: solid;
-transform-origin: left;
-border-radius: 20px;
-}
-.eye1{
-    width: 25px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #222222;
-    position: absolute;
-    margin-top: -120px;
-    margin-right: 60px;
-    display: flex;
-    justify-content: center;
-    align-items:center;
+.circle2 {
+  height: 60px;
+  width: 60px;
+  margin-top: 100px;
+  border-right: 3px solid red;
+  border-bottom: 5px solid red;
 }
 
-.eye2{
-    width: 25px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #222222;
-    position: absolute;
-    margin-top: -120px;
-    margin-right: -60px;
-    display: flex;
-    justify-content: center;
-    align-items:center;
+.circle3 {
+  height: 50px;
+  width: 50px;
+  margin-top: 170px;
+  margin-left: 20px;
+  border-right: 2px solid red;
+  border-bottom: 5px solid red;
 }
-.eyeball{
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: white;
-    border: 2px solid rgb(191, 128, 231);
+.circle4 {
+  height: 40px;
+  width: 40px;
+  margin-top: 230px;
+  margin-left: 40px;
+  border-right: 2px solid red;
+  border-bottom: 5px solid red;
 }
-.ball{
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: rgb(224, 19, 19);
-    margin: auto;
-    margin-top: 40%;
-    border: 1.5px solid yellow;
+.circle5 {
+  height: 35px;
+  width: 35px;
+  margin-top: 280px;
+  margin-left: 40px;
+  border-right: 2px solid red;
+  border-bottom: 5px solid red;
 }
-.ball1{
-    width: 55px;
-    height: 55px;
-   margin-top: 25px;
-   margin-left: -90px;
+.circle6 {
+  height: 30px;
+  width: 30px;
+  margin-top: 320px;
+  margin-left: 20px;
+  border-right: 2px solid red;
+  border-bottom: 5px solid red;
 }
-.ball2{
-    width: 15px;
-    height: 15px;
-   margin-top: -90px;
-   margin-left: -70px;
+.circle7 {
+  height: 25px;
+  width: 25px;
+  margin-top: 350px;
+  margin-left: 0px;
+  border-bottom: 2px solid red;
+  border-right: 2px solid red;
+  border-left: 2px solid red;
 }
-.ball3{
-    width: 15px;
-    height: 15px;
-   margin-top: 90px;
-   margin-left: -70px;
+.mouth {
+  height: 150px;
+  width: 150px;
+  background-color: orange;
+  border-radius: 50%;
+  margin-top: -120px;
+  position: absolute;
+  z-index: -1;
+  border-right: 5px solid red;
+  border-left: 5px solid red;
+  border-top: transparent;
 }
-.ballL1{
-    margin-left: 15px;
-    margin-top:20px;
-    width: 60px;
-    height: 60px;
+.teeth1 {
+  width: 0px;
+  height: 25px;
+  background-color: white;
+  margin-left: -85px;
+  margin-top: 15px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 60px;
+  transform-origin: right;
+  position: absolute;
+  /* border: 1px solid red; */
 }
-.ballL2{
-    margin-left: 15px;
-    margin-top:20px;
-    width: 60px;
-    height: 60px;
+.teeth {
+  width: 0px;
+  height: 25px;
+  background-color: white;
+  margin-left: 85px;
+  margin-top: 16px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 60px;
+  transform-origin: right;
+  position: absolute;
+  /* border: .1px solid red; */
 }
-.ballr{
-margin-left: 33px;
+.ear1 {
+  width: 0px;
+  height: 100px;
+  border-width: 50px 50px 50px 100px;
+  border-color: transparent transparent transparent orange;
+  position: absolute;
+  margin-top: -120px;
+  margin-left: -150px;
+  border-style: solid;
+  transform-origin: right;
+  border-radius: 20px;
+  /* border: 5px solid green; */
 }
-.ballr:nth-child(2){
-margin-left: 55px;
+.ear2 {
+  width: 0px;
+  height: 100px;
+  border-width: 50px 100px 50px 50px;
+  border-color: transparent orange transparent transparent;
+  position: absolute;
+  margin-top: -120px;
+  margin-left: 150px;
+  border-style: solid;
+  transform-origin: left;
+  border-radius: 20px;
 }
-.ballr:nth-child(3){
-    margin-left: 55px;
-    }
-    .b1{
-        margin-top:30px;
-        width: 28px;
-height: 28px;
-    }
-    .b2{
-        margin-top:20px;
-        width: 18px;
-height: 18px;
-    }
-    .b3{
-        margin-top:20px;
-        width: 15px;
-height: 15px;
-    }
-    .b4{
-        margin-top:15px;
-        width: 10px;
-height: 10px;
-    }
-    .b5{
-        margin-top:15px;
-        width: 6px;
-height: 6px;
-    }
+.eye1 {
+  width: 25px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #222222;
+  position: absolute;
+  margin-top: -120px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eye2 {
+  width: 25px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #222222;
+  position: absolute;
+  margin-top: -120px;
+  margin-right: -60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eyeball {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid rgb(191, 128, 231);
+}
+.ball {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgb(224, 19, 19);
+  margin: auto;
+  margin-top: 40%;
+  border: 1.5px solid yellow;
+}
+.ball1 {
+  width: 55px;
+  height: 55px;
+  margin-top: 25px;
+  margin-left: -90px;
+  /* border: 19px solid red;
+background-color: yellow; */
+}
+.ball2 {
+  width: 15px;
+  height: 15px;
+  margin-top: -90px;
+  margin-left: -70px;
+}
+.ball3 {
+  width: 15px;
+  height: 15px;
+  margin-top: 90px;
+  margin-left: -70px;
+}
+.ballL1 {
+  margin-left: 15px;
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+}
+.ballL2 {
+  margin-left: 15px;
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+}
+.ballr {
+  margin-left: 33px;
+}
+.ballr:nth-child(2) {
+  margin-left: 55px;
+}
+.ballr:nth-child(3) {
+  margin-left: 55px;
+}
+.b1 {
+  margin-top: 30px;
+  width: 28px;
+  height: 28px;
+}
+.b2 {
+  margin-top: 20px;
+  width: 18px;
+  height: 18px;
+}
+.b3 {
+  margin-top: 20px;
+  width: 15px;
+  height: 15px;
+}
+.b4 {
+  margin-top: 15px;
+  width: 10px;
+  height: 10px;
+}
+.b5 {
+  margin-top: 15px;
+  width: 6px;
+  height: 6px;
+}
 .hat {
-background: gold;
-position: absolute;
-border-radius: 50%;
-z-index: -10;
-border: 5px solid orange;
+  background: gold;
+  position: absolute;
+  border-radius: 50%;
+  z-index: -10;
+  border: 5px solid orange;
 }
 
-.hat1{
-    height: 80px;
-    width: 120px;
-    margin-top: -250px;
-    z-index: -12;
+.hat1 {
+  height: 80px;
+  width: 120px;
+  margin-top: -250px;
+  z-index: -12;
 }
-.hat2{
-    margin-top: -300px; 
-    height: 60px;
-width: 80px;
-z-index: -13;
+.hat2 {
+  margin-top: -300px;
+  height: 60px;
+  width: 80px;
+  z-index: -13;
 }
-.hat3{
-    margin-top: -350px; 
-    height: 30px;
-width: 20px;
-z-index: -15;
-background-color: red;
+.hat3 {
+  margin-top: -350px;
+  height: 30px;
+  width: 20px;
+  z-index: -15;
+  background-color: red;
 }
-.tilak{
-    width: 25px;
-    border: 1px solid red;
-    padding: 1px;
-    border-radius: 30px;
-    margin-top: -200px;
-    position: absolute;
-    background-color: yellow;
+.tilak {
+  width: 25px;
+  border: 1px solid red;
+  padding: 1px;
+  border-radius: 30px;
+  margin-top: -200px;
+  position: absolute;
+  background-color: yellow;
 }
-.tilak1{
-    margin-top: -190px;
+.tilak1 {
+  margin-top: -190px;
 }
-.tilak2{
-    margin-top: -180px;
+.tilak2 {
+  margin-top: -180px;
 }
-.stomach{
-width: 270px;
-height: 270px;
-border-radius: 50%;
-/* background-color: orange; */
-margin-top: 120px;
-margin-left: 10px;
-position: absolute;
-z-index:-100px;
-border-bottom: 6px solid red;
-border-top: transparent;
+.stomach {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  /* background-color: orange; */
+  margin-top: 120px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: -10000000px;
+  border-bottom: 6px solid red;
+  border-top: transparent;
 }
-.leg1{
-    width: 100px;
-    background-color: orange;
-    height: 100px;
-margin-top: 430px;
-border-radius: 10px;
-/* margin-right: 10px; */
-margin-left:0px ;
-border-bottom-left-radius: 50%;
-border-top-right-radius: 50%;
-border-top-left-radius: 50%;
-transform-origin: left;
-border: 2px solid red;
+.leg1 {
+  width: 100px;
+  background-color: orange;
+  height: 100px;
+  margin-top: 430px;
+  border-radius: 10px;
+  /* margin-right: 10px; */
+  margin-left: -180px;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  transform-origin: left;
+  border: 2px solid red;
+  position: absolute;
+}
+.leg2 {
+  width: 100px;
+  border: 2px solid red;
+  background-color: orange;
+  height: 100px;
+  margin-top: 420px;
+  border-radius: 10px;
+  /* margin-right: 10px; */
+  margin-left: 210px;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform-origin: right;
+  position: absolute;
+}
+
+.l {
+  width: 70px;
+  height: 60px;
+  background-color: orange;
+  border-radius: 50%;
+  margin-top: 180px;
+  margin-left: -335px;
+  position: absolute;
+}
+.ladu {
+  width: 50px;
+  height: 50px;
+  background-color: gold;
+  /* border: 1px solid red; */
+  border-bottom: 5px solid red;
+  border-right:1px solid red ;
+  border-left:2px solid red ;
+
+  /* rotate: calc(90); */
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  margin-left: 10px;
+  margin-top: -10px;
+  transform: rotate(45deg);
+}
+.r {
+  width: 55.5px;
+  height: 50px;
+  background-color: orange;
+  border-radius: 50%;
+  margin-top: 180px;
+  margin-left: 345px;
+  position: absolute;
+  z-index: -1px;
+  border-bottom: 4.5px solid red;
+}
+.f {
+    width: 60.9px;
+    height: 50px;
+    margin-left: 341px;
+    margin-top: 130px;
+    display: flex;
+}
+.ff{
+  border-top: 1px solid red;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  border-bottom: transparent;
+  border-radius: 10px; 
+   background-color: orange;
+}
+.f1 {
+  width: 10px;
+  height: 40px;
+  margin-left: 4px;
+  margin-top: 14px;
 
 }
-.leg2{
-    width: 100px;
-    border: 2px solid red;
-    background-color: orange;
-    height: 100px;
-margin-top: 430px;
-border-radius: 10px;
-/* margin-right: 10px; */
-margin-left:100px ;
-border-bottom-right-radius: 50%;
-border-top-left-radius: 50%;
-border-top-right-radius: 50%;
-transform-origin: right;
+.f2 {
+  width: 10px;
+  height: 50px;
+  margin-left: 0;
+  margin-top: -7px;
+}
+.f3 {
+  width: 10px;
+  height: 50px;
+  margin-left: 0;
+  margin-top: -15px;
+}
+.f4 {
+  width: 10px;
+  height: 50px;
+  margin-left: 0;
+  margin-top: -8px;
+}
+.f5 {
+  width: 8px;
+  height: 50px;
+  margin-left: 0;
+  margin-top: 0px;
 }
